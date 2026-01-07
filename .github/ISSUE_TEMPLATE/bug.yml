@@ -1,32 +1,10 @@
 name: Bug report
 description: Report a defect or unexpected behaviour
-title: "[Bug]: "
 labels: ["type:bug"]
 body:
   - type: textarea
-    id: description
+    id: summary
     attributes:
-      label: Description
-      description: What went wrong?
+      label: What went wrong?
     validations:
       required: true
-
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: How can this be reproduced?
-      placeholder: |
-        1.
-        2.
-        3.
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behaviour
-
-  - type: textarea
-    id: context
-    attributes:
-      label: Additional context
