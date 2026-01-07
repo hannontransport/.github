@@ -2,9 +2,15 @@ name: Feature request
 description: Suggest a new feature or improvement
 labels: ["type:feature"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Reminder:** Please set **Issue type = Feature** in the right-hand panel before submitting.
+
   - type: textarea
     id: summary
     attributes:
       label: What is the feature?
+      description: Describe the problem or improvement.
     validations:
       required: true
