@@ -2,9 +2,15 @@ name: Bug report
 description: Report a defect or unexpected behaviour
 labels: ["type:bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Reminder:** Please set **Issue type = Bug** in the right-hand panel before submitting.
+
   - type: textarea
     id: summary
     attributes:
       label: What went wrong?
+      description: Clear, concise description of the bug.
     validations:
       required: true
