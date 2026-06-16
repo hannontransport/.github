@@ -17,6 +17,7 @@ Steps to verify this change:
 3. 
 
 ## Checklist
+- [ ] Updated Architecture doc if needed
 - [ ] Code builds and tests pass
 - [ ] I have tested this change
 - [ ] Documentation updated if required
