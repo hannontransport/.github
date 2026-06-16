@@ -20,5 +20,6 @@ Steps to verify this change:
 - [ ] Updated Architecture doc if needed
 - [ ] Code builds and tests pass
 - [ ] I have tested this change
-- [ ] Documentation updated if required
+- [ ] README.md updated if required
+- [ ] Postman collection updated if required
 - [ ] No secrets or sensitive data committed
