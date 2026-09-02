@@ -24,3 +24,4 @@ Steps to verify this change:
 - [ ] Postman collection updated if required
 - [ ] No secrets or sensitive data committed
 - [ ] Ensure seeder is updated to include any new fields
+- [ ] env.json updated if required
